@@ -69,8 +69,15 @@ address {
   color: #2e2f42;
   text-transform: capitalize;
 }
+.section3 {
+  padding: 120px 0 120px;
+}
 .visually-hidden {
   visibility: hidden;
+}
+.section-list {
+  display: flex;
+  gap: 24px;
 }
 
 header {
@@ -146,9 +153,11 @@ button:focus {
 }
 .section-item-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-subtitel {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
