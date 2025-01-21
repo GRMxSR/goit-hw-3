@@ -164,9 +164,10 @@ button:hover,
 button:focus {
   background-color: #404bbf;
 }
+
 .section-item-list {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-subtitel {
